@@ -25,3 +25,5 @@ plates.add("Blueberry");
 plates.add("Pomegranate");
 
 console.log(plates.stack);
+plates.remove();
+console.log(plates.stack);
