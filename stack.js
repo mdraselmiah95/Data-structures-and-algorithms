@@ -7,6 +7,9 @@ class Stack {
   add(element) {
     this.stack.push(element);
   }
+  remove() {
+    return this.stack.pop();
+  }
 }
 
 const plates = new Stack();
@@ -20,3 +23,5 @@ plates.add("Nectarine");
 plates.add("Grape");
 plates.add("Blueberry");
 plates.add("Pomegranate");
+
+console.log(plates.stack);
