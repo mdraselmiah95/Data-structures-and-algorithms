@@ -5,4 +5,7 @@ class Dictionary {
   add(key, value) {
     this.dictionary[key] = value;
   }
+  get(key) {
+    return this.dictionary[key];
+  }
 }
