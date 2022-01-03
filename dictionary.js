@@ -19,3 +19,6 @@ phoneBook.add("Ben Affleck", "6532168452");
 phoneBook.add("Kevin Spacey", "729374098");
 
 console.log(phoneBook.dictionary);
+
+const Johnny = phoneBook.get("Johnny Depp");
+console.log(Johnny);
