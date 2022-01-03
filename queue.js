@@ -7,6 +7,9 @@ class Queue {
   enqueue(element) {
     this.queue.push(element);
   }
+  dequeue() {
+    this.queue.shift();
+  }
 }
 
 const popular = new Queue();
