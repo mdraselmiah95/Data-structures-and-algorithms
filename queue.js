@@ -9,4 +9,12 @@ class Queue {
   }
 }
 
-const Popular = new Queue();
+const popular = new Queue();
+
+popular.enqueue("Star Wars");
+popular.enqueue("Avatar ");
+popular.enqueue("Black Panther ");
+popular.enqueue("Avengers");
+popular.enqueue("Titanic ");
+
+console.log(popular.queue);
