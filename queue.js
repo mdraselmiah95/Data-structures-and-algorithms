@@ -16,5 +16,8 @@ popular.enqueue("Avatar ");
 popular.enqueue("Black Panther ");
 popular.enqueue("Avengers");
 popular.enqueue("Titanic ");
+popular.enqueue("Marvel's The Avengers");
+popular.enqueue("Incredible");
+popular.enqueue("The Lion King");
 
 console.log(popular.queue);
