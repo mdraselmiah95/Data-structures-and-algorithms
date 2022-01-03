@@ -24,3 +24,5 @@ popular.enqueue("Incredible");
 popular.enqueue("The Lion King");
 
 console.log(popular.queue);
+popular.dequeue();
+console.log(popular.queue);
