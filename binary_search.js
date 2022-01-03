@@ -19,5 +19,6 @@ function binary_search(array, target) {
   return -1;
 }
 
-const index = binary_search(number, 90);
+// const index = binary_search(numbers, 90);
+const index = binary_search(numbers, 13);
 console.log(index);
