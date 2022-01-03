@@ -8,3 +8,6 @@ function linear_search(array, target) {
   }
   return -1;
 }
+
+const index = linear_search(number, 99);
+console.log(index);
