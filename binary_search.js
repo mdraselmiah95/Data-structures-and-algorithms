@@ -18,3 +18,6 @@ function binary_search(array, target) {
   }
   return -1;
 }
+
+const index = binary_search(number, 90);
+console.log(index);
