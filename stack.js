@@ -1,4 +1,4 @@
-//first in First out
+//Last in First out => LIFO
 
 class Stack {
   constructor() {
