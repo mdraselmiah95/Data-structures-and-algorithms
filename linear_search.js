@@ -9,5 +9,7 @@ function linear_search(array, target) {
   return -1;
 }
 
-const index = linear_search(number, 304);
+// const index = linear_search(number, 34);
+// const index = linear_search(number, 35);
+const index = linear_search(number, 305);
 console.log(index);
