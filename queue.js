@@ -22,7 +22,12 @@ popular.enqueue("Titanic ");
 popular.enqueue("Marvel's The Avengers");
 popular.enqueue("Incredible");
 popular.enqueue("The Lion King");
+popular.enqueue("Beauty and the Beast");
 
+console.log(popular.queue);
+popular.dequeue();
+console.log(popular.queue);
+popular.dequeue();
 console.log(popular.queue);
 popular.dequeue();
 console.log(popular.queue);
