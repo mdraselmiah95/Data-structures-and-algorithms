@@ -21,5 +21,6 @@ function binary_search(array, target) {
 
 // const index = binary_search(numbers, 90);
 // const index = binary_search(numbers, 13);
-const index = binary_search(numbers, 999);
+// const index = binary_search(numbers, 999);
+const index = binary_search(numbers, 19);
 console.log(index);
