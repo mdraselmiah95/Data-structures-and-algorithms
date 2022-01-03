@@ -10,3 +10,6 @@ function bubble_sort(array) {
   }
   return array;
 }
+
+const sorted = bubble_sort(numbers);
+console.log(sorted);
