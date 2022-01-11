@@ -1,4 +1,4 @@
-const numbers = [45, 12, 5, 9, -5, 12];
+const numbers = [27, 11, 5, 9, -4, 19];
 
 function selection_sort(array) {
   for (let i = 0; i < array.length; i++) {
@@ -12,3 +12,6 @@ function selection_sort(array) {
   }
   return array;
 }
+
+const sorted = selection_sort(numbers);
+console.log(sorted);
