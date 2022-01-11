@@ -3,7 +3,7 @@ const numbers = [27, 11, 5, 9, -4, 19];
 function selection_sort(array) {
   for (let i = 0; i < array.length; i++) {
     let min = i;
-    for (let j = 0; j < array.length; j++) {
+    for (let j = i; j < array.length; j++) {
       if (array[j] < array[min]) {
         min = j;
       }
